@@ -1,0 +1,111 @@
+/* ----------------------------
+FONT: Montserrat
+
+TEXT: Price Plan
+TEXT: Web Domain
+TEXT: Bronze $55 -COLOR: #1E0042
+TEXT: Select Plan
+
+----------------------------
+FONT: Montserrat Classic
+
+TEXT: 3 GB Storage
+TEXT: 5 Domain
+TEXT: 2 Premium Account
+TEXT: Multilingual
+
+----------------------------
+BOX SELECT PLAN
+
+BACKGROUND: #004AAD
+
+
+----------------------------
+MAIN BACKGROUND
+
+COLOR: #290059 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+*/
+
+
+body{
+    height: 120%;
+    background: #290059;
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 130%;
+    
+}
+h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 750%;
+    margin-top: 20%;
+}
+span{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 300%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+div{
+    background: white; 
+    position: relative;
+    justify-content: center;
+    height: 90vh;
+    width: 70vh;
+    border-radius: 45px;
+    margin: 130px 30px 300px 30px;
+}
+h2{
+    color: #1E0042;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 400%;
+    font-weight:900;
+    text-align: center;
+    justify-content: center;
+}
+
+div::before{
+    content: "";
+    position: absolute;
+    background: #1E0042;
+    width: 350px;
+    height: 2px;
+    margin: 250px 0 0 90px;
+}
+
+ol{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+section{
+    background-color: #004AAD;
+    width: 65%;
+    height: 100px;
+    
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -40px;
+    left: 18%;
+}
+p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 30px 0 0 0;
+    
+}
